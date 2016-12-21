@@ -1,0 +1,1 @@
+{"C:\\projects\\BouncyWpW\\gulpfile.js":{"sha1":"e5b1f87c9b5c92fe2b3ec824150c469cd53022f0","tasks":{"express":{"name":"express","dependencies":""},"livereload":{"name":"livereload","dependencies":""},"styles":{"name":"styles","dependencies":""},"watch":{"name":"watch","dependencies":""},"default":{"name":"default","dependencies":"styles express livereload watch"}}}}

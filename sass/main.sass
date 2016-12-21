@@ -1,0 +1,899 @@
+@import bourbon
+@import vars.sass
+@import jquery.bxslider.sass
+@import bxslidercustom.sass
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+//Custom Styles Here
+
+
+
+h2
+	font-family: SourceSansPro
+	letter-spacing: 2px
+	font-size: 20px
+	color: #333b46 
+
+.about-box1
+	padding-left: 140px
+	margin-bottom: 80px
+
+
+.about-title
+	display: block
+	margin-top: 100px
+	color: #333b46
+
+.about-text
+	display: block
+	font-size: 14px
+	font-family: OpenSans
+	margin-top: 10px
+	color: #81868e
+	width: 448px
+	
+
+.read-button
+	margin-top: 35px
+	width: 115px
+	border: 1px solid #333b46
+	display: block
+	border-radius: 20px
+	padding: 5px 15px
+	cursor: pointer
+	transition: all .3s ease
+	&:hover
+		background-color: #333b46
+		color: white 
+.ipadimg
+	background-image: url(img/ipad.png)
+	width: 204px
+	height: 337px
+	margin-top: 70px
+	margin-left: 100px
+
+.ab-wrapp
+	background-color: #f3f3f3
+
+.about-bouncy-title
+	text-align: center
+	margin-top: 80px
+
+
+.about-bouncy-text
+	text-align: center
+	font-size: 14px
+	font-family: OpenSans
+	color: #81868e
+	width: auto
+
+.about-box2
+	max-width: 448px
+
+.ic1,.ic2,.ic3,.ic4
+	width: 50px
+	height: 50px
+	border-radius: 50%
+	background-color: #81868e
+	list-style: none
+	display: inline-block
+	margin-left: 25px
+	padding-left: 12px
+	padding-top: 5px
+
+.ic2
+	padding-left: 20px
+	padding-top: 10px
+	font-size: 20px
+
+.ic3
+	padding-left: 18px
+	padding-top: 5px
+	font-size: 25px
+
+.ico-pack
+	position: absolute
+	left: 50%
+	margin-left: -135px
+	margin-top: 50px
+	color: white
+	font-size: 25px
+
+.ico-pack 
+	li.active
+		background-color: #19bd9a
+
+.creative-text
+	font-size: 14px
+	font-family: OpenSans
+	color: #81868e
+	max-width: 300px
+
+.creative
+	padding-left: 100px
+	margin-top: 170px
+	padding-bottom: 100px
+
+.creative-text2
+	font-size: 14px
+	font-family: OpenSans
+	color: #81868e
+	margin-top: 65px
+	padding-left: 70px
+	max-width: 580px
+
+.featured-text
+	padding-bottom: 50px		
+
+.featured-cont
+	background-color: #ffffff
+
+.imagebox
+	height: 320px
+	overflow: hidden
+	margin: 0px
+	padding: 0px
+
+.f-projects
+	margin: 0px
+	padding: 0px
+
+	
+img.cover
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	bottom: 10
+	margin: 0px
+	padding: 0px 
+	min-width: 100%
+	min-height: 100%
+	overflow-x: hidden
+
+.cross
+	height: 115px
+	overflow: hidden
+	background-image: url(img/cross.jpg)
+	background-size: cover
+
+.crossfilter
+	position: absolute
+	width: 100%
+	height: 100%
+	background: rgba(#1daa8d,.9)
+
+.crosstext
+	color: white
+	position: absolute
+	margin-left: 150px
+	top: 50%
+	margin-top: -5px
+	letter-spacing: 2px
+
+.crossbutton
+	position: absolute
+	color: white
+	width: 125px
+	border: 1px solid white
+	top: 50%
+	margin-top: -10px
+	right: 50%
+	margin-right: -450px
+
+.wdht
+	width: 100%
+	height: 320px
+	padding: 0px
+	margin: 0px
+
+.imgfilter
+	position: absolute
+	width: 100%
+	height: 100%
+	background: rgba(black,.8)
+	z-index: 1
+	
+	span
+		color: white
+		font-size: 20px
+		display: block
+		text-align: center
+		line-height: 330px
+		letter-spacing: 2px
+		font-family: SourceSansPro
+
+.col-md-12.wdht
+	margin: 0px
+	padding: 0px
+
+.f-projects
+	.col-md-4
+		margin: 0px
+		padding: 0px
+		cursor: pointer
+		filter: grayscale(100%)
+		transition: all .7s ease
+
+.imgfilter
+	transition: all 1s ease
+
+.our-icons
+	.ico-pack
+		margin-top: 0px
+		margin-left: -70px
+
+.our-icons
+	.ico-pack
+		li
+			margin-top: 15px
+			display: list-item
+
+.our-icons
+	.ico-pack
+		li.ic3
+			padding-left: 12px
+			padding-top: 2px
+
+.our-icons
+	.ico-pack
+		li.ic1
+			padding-left: 10px
+			padding-top: 4px
+
+.our-icons
+	.ico-pack
+		li.ic2
+			padding-left: 18px
+			padding-top: 8px
+
+.ic4
+	padding-left: 18px
+	padding-top: -15px
+
+
+	.two
+		margin-left: -70px
+		margin-top: 5px
+
+.our-services-container
+	background-color: #f3f3f3
+
+.diag
+	width: 150%
+	margin-left: 580px
+	margin-top: -170px
+	.diag-title
+		font-size: 16px
+		text-align: center
+		margin-top: 140px
+		color: #81868e
+		font-family: RobotoLight
+
+.c100
+	background-color: #047378
+	margin-left: 20px
+
+	span
+		color: #81868e
+		font-size: 25px
+		line-height: 120px
+
+.slice
+	background-color: transparent
+
+.c100
+	.slice
+		.bar
+			border: .08em solid #19bd9a
+
+.c100
+	.slice
+		.fill
+			border: .08em solid #19bd9a
+
+.c100:hover span
+	color: #19bd9a
+	font-size: 30px
+	line-height: 120px
+	padding-left: 14px
+	cursor: pointer
+
+.graphic-container
+	margin-top: 15px
+
+.graphic-text
+	margin-top: 20px
+	max-width: 350px
+
+.graphic-text2
+	width: 100%
+	margin-top: 30px
+	padding: 0px
+	max-width: 350px
+.grcont
+	margin-left: 120px
+
+.max
+	max-width: 500px
+
+.wrappOur
+	padding-bottom: 100px
+
+.impressed
+	background: url(../img/BG2.jpg)
+	background-size: cover
+	background-position: center
+	padding-bottom: 90px
+	
+
+.impressed-title
+	display: block
+	color: white
+	font-family: SourceSansPro 
+	font-weight: 300
+	font-size: 20px
+	margin-top: 75px
+	color: #f3f3f3
+	letter-spacing: 2px
+
+.impressed-text
+	color: #b2b3b3
+	margin-top: 50px
+	
+.author
+	color: #b2b3b3
+	font-weight: bold
+	font-size: 14px
+	margin-top: 30px
+
+.who
+	font-size: 15px
+	font-family: OpenSans
+	font-weight: bold
+	color: #b2b3b3
+	margin-top: 5px
+
+.mac
+	background: url(../img/mac.png)
+	width: 409px
+	height: 328px
+	background-size: cover
+	float: right
+	margin-top: -40px
+
+.portBG
+	background-color: #f3f3f3
+	padding-bottom: 100px
+
+.portfolio-menu
+	display: block
+	text-align: center
+	margin-left: -32px
+	ul
+		li
+			list-style: none
+			display: inline-block
+			margin-left: 32px
+			cursor: pointer
+			transition: all .5s ease
+
+.portfolio-menu
+	ul
+		li.active
+			border-bottom: 1px solid #19bd9a
+			padding-bottom: 10px
+			
+
+.portfolio-wrapp
+	height: 950px
+	margin-top: 50px
+	overflow: hidden
+	
+.galereya-cats
+	display: none
+
+.galereya-grid
+	top: 0px
+
+img.port
+	position: relative
+	object-fit: cover
+	margin-top: 15px
+	transition: all .5s ease
+
+.start-project
+	height: 200px
+	background: url(img/BG3.jpg)
+	background-size: cover
+	background-position: center
+	margin-top: 0px
+	color: white
+	text-align: center
+
+.start-title
+	font-size: 20px
+	padding-top: 50px
+	
+.start-button
+	left: 50%
+	margin-left: -70px
+	top: 50%
+	margin-top: 15px
+
+.slide-wrapp
+	margin-top: 50px
+	padding-bottom: 50px
+
+
+
+.team-img
+	height: 360px
+	overflow: hidden
+	margin-left: 40px
+	float: left
+	max-width: 320px
+
+.team-skillz
+	text-align: right
+	float: right
+	margin-right: 50px
+
+.teamwrap
+	margin-top: 20px
+
+	
+.name
+	font-size: 20px
+	color: #464646
+
+.whois
+	font-family: SourceSansPro
+	font-style: italic
+	color: #81868e
+	letter-spacing: 2px
+
+.skills-text
+	color: #81868e
+	margin-top: 40px
+	padding-right: 20px
+	font-size: 14px
+
+.wr
+	border-right: 5px solid #19bd9a
+	padding-right: 20px
+
+.team-skillz
+	margin-top: -0px
+
+.skill-graph
+	float: right
+	margin-top: 65px
+	padding-right: 20px
+	height: 210px
+
+.line1,.line2,.line3
+	width: 330px
+	height: 5px
+	background: #e1e4e9
+	margin-bottom: 55px
+	font-family: SourceSansPro
+	color: #81868e
+	font-size: 16px
+
+.in-line1,.in-line2,.in-line3
+	height: inherit
+	background: #19bd9a
+
+.in-line1
+	width: 80%
+
+.in-line2
+	width: 65%
+
+.in-line3
+	width: 75%
+
+.title-gr
+	float: left
+	margin-top: -30px
+
+.title-pr1,.title-pr2,.title-pr3
+	float: right
+	margin-top: -30px
+
+.team-selector
+	text-align: center
+	margin-top: -50px
+	padding-bottom: 50px
+
+	ul
+		margin-left: -50px
+		li
+			list-style: none
+			width: 10px
+			height: 10px
+			border: 1px solid #19bd9a
+			border-radius: 50%
+			display: inline-block
+			cursor: pointer
+			margin-left: 10px
+			transition: all .5s ease
+		li.active
+			background-color: #19bd9a
+
+
+
+
+.bx-default-pager
+	a
+	margin: 0px 7px 
+
+.newBG
+	background: url(img/BG4.jpg)
+	height: 200px
+
+.testimg
+	width: 130px
+	height: 130px
+	margin-left: 100px
+	margin-top: 50px
+	float: left
+	
+.slider2Height
+	height: 290px
+
+.sl2wrapp
+	background-color: #f3f3f3
+
+.testText
+	text-align: left
+	float: left
+	max-width: 705px
+	margin-left: 70px
+	color: #81868e
+	margin-top: 60px
+
+
+.test-author
+	float: left
+	margin-left: 300px
+	margin-top: -30px
+	color: #19bd9a
+	
+
+.bxslider2
+	padding-bottom: 50px
+	
+.Blog-wrapp
+	min-height: 670px
+	background: url("img/BG5.jpg");
+	background-size: cover
+	background-position: center
+	filter: grayscale(0%)
+
+.bx-caption
+	padding: 50px
+
+
+.Blog-Title
+	color: #ffffff
+	margin-top: 75px
+
+.Blog-Text
+	color: #b2b3b3
+	font-size: 14px
+
+.bxsliderCont
+	margin-top: 90px
+
+.post-title
+	color: #fff
+
+.by
+	color: #18b190
+	font-size: 14px
+	font-family: SourceSansPro
+
+.comm
+	color: #464646
+	font-size: 14px
+
+.post-text
+	padding-top: 50px
+	color: #81868e
+	font-size: 14px
+	max-width: 580px
+
+.readmore
+	padding-top: 50px
+	color: #b2b3b3
+	cursor: pointer
+	&:hover
+		color: #fff
+
+.post-wrapp
+	padding-bottom: 50px
+	
+.price-wrapp
+	min-height: 410px
+	margin-left: -25px
+	margin-top: 40px
+
+
+.price-box
+	height: 300px
+	box-shadow: 0px 0px 2px #333
+	cursor: pointer
+	margin-left: 120px
+	overflow: hidden
+	position: absolute
+	z-index: 1
+
+.boxline1
+	height: 70px
+	background-color: #19bd9a
+	text-align: center
+	letter-spacing: 2px
+	color: white
+	font-size: 18px
+	font-weight: bold
+	line-height: 80px
+
+.boxline2
+	color: #19bd9a
+	font-weight: bold
+	font-size: 42px
+	font-famuly: SourceSansPro
+	text-align: center
+	background-color: white
+	margin-top: 60px
+
+.pboxwrap
+	opacity: 1
+	transition: all .5s ease
+	
+.pboxwrap2
+	opacity: 0
+	transition: all .5s ease
+
+.listbox
+	position: absolute
+	top: 40px
+	list-style: none
+	color: #b3b3b3
+	font-size: 14px
+	width: 100%
+	height: 100%
+	margin-left: 10px
+	padding-right: 20px
+
+.listbox
+	li
+		margin-top: 5px
+
+.anline
+	position: absolute
+	bottom: 0
+	height: 70px
+	background: #19bd9a 	
+	width: 100%
+	text-align: center
+	letter-spacing: 2px
+	color: white
+	font-size: 18px
+	font-weight: bold
+	line-height: 80px
+
+.allcolor
+	background: #f3f3f3
+
+.subswrap
+	min-height: 380px
+	background: url(img/BG6.jpg)
+	background-size: cover
+	background-position: bottom
+
+.subs-title
+	color: white
+
+.eminput
+	background: none
+	border: none
+	border: 1px solid #81868e
+	padding: 10px
+	font-size: 14px
+	color: #cfd3d4
+	max-width: 360px
+
+
+.embutton
+	margin: 0px
+	background: none
+	border: none
+	background-color: #19bd9a
+	color: white
+	padding: 9px 25px
+	margin-left: 125px
+	margin-top: 20px
+
+
+.emform
+	position: absolute
+	left: 50%
+	margin-left: -180px
+	margin-top: -20px
+
+.cont-wrapp
+	background-color: #f3f3f3
+
+.contact-box
+    min-height: 370px
+
+div[class*='cont-block']
+    min-height: 290px
+    background-color: white
+    box-shadow: 0px 0px 1px #333
+    cursor: pointer
+    padding-bottom: 10px
+    
+    
+div[class*='contact-image']
+    min-height: 145px
+    
+.contact-image1
+    background: url(img/Bookcontact.jpg)
+    background-size: cover
+    
+.contact-image2
+    background: url(img/ncontact.jpg)
+    background-size: cover
+    
+.contact-image3
+    background: url(img/MacContact.jpg)
+    background-size: cover
+    
+.contactico
+    color: white
+    position: absolute
+    font-size: 40px
+    left: 50%
+    margin-left: -20px
+    top: 50%
+    margin-top: -90px
+    
+.fa-envelope-o
+    margin-left: -20px
+    
+.contact-title
+    height: 100%
+    
+.contact-title
+    margin-top: 30px
+    color: #464646
+    text-align: center
+    
+.contact-info
+    color: #81868e
+    text-align: center
+    padding-bottom: 20px
+    margin-top: 20px
+
+.info-phone
+    padding-left: 20px
+    padding-right: 20px
+    
+.contact-box
+    margin-bottom: 80px
+    
+.formbg
+    background: white
+    min-height: 510px
+
+.container-fluid.formbg
+    margin: 0px
+    padding: 0px
+    
+.formact
+    margin-top: 70px
+    
+.edit 
+    input
+        width: 100%
+        height: 40px
+        padding: 15px
+        font-size: 14px
+        border: none
+        border: 1px solid #d8dce0
+        margin-top: 20px
+        background: transparent
+.area
+    width: 100%
+    border: none
+    border: 1px solid #d8dce0
+    resize: none
+    margin-top: 30px
+    font-size: 14px
+    min-height: 190px
+    
+.sumbitB
+    width: 100%
+    background: #19bd9a
+    border: none
+    height: 50px
+    margin-top: 30px
+    color: white
+    letter-spacing: 2px
+    margin-bottom: 40px
+
+.map
+    padding: 0
+    margin: 0
+
+.mapfilter
+    background: rgba(#000,.9)
+    position: absolute
+    margin-left: 15px
+    margin-top: 0px
+    width: 100%
+    height: 507px
+    z-index: 1
+    color: white
+    text-align: center
+    line-height: 510px
+    cursor: pointer
+
+    
+.fa-map-o
+    margin-left: 10px
+
+.footer
+    background: #f3f3f3
+    font-size: 14px
+    text-align: center
+    min-height: 270px
+    
+.footer-logo
+    font-size: 25px
+    font-family: BigJohn
+    line-height: 180px
+    
+.footer-text   
+    margin-top: -60px
+
+.footer-icons
+    font-size: 30px
+    margin-top: -10px
+    
+.footer-icons
+    i
+        cursor: pointer
+        margin-left: 10px
+//ALWAYS END
+@import media
+
+//Load Libs SASS
+@import app/libs/animate/animate.sass
+

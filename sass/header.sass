@@ -1,0 +1,177 @@
+@import bourbon
+@import fonts.sass
+@import font-awesome.sass
+@import circle.sass
+@import vars.sass
+@import jquery.galereya.sass
+@import jquery.galereya.ie.sass
+
+
+
+body
+    font-size: 16px
+    min-width: 320px
+    position: relative
+    line-height: 1.6
+    font-family: "OpenSans", sans-serif
+    overflow-x: hidden
+    
+
+.hidden
+    display: none
+
+.main-head
+    background-image: url(img/header-image.jpg)
+    min-height: 100vh
+    background-size: cover
+    background-position: top center
+
+.filter
+    width: 100%
+    height: 100vh
+    position: absolute
+    background-color: rgba(#333,.4)
+
+.Logo
+    color: white
+    font-size: 25px
+    font-weight: bold;
+    font-family: "bigjohn"
+    display: inline-block
+    padding-top: 45px
+    padding-left: 0px
+
+.nav-menu
+    ul
+        li
+            color: white
+            font-family: openSans
+            cursor: pointer
+            list-style: none
+            float: left
+            margin-top: 35px
+            margin-left: 20px
+            padding: 5px 15px
+            transition: all .2s linear      
+            &:hover
+                text-shadow: 0px 0px 15px #19bd9a                            
+.nav-menu
+    li.active
+        border: 1px solid white
+        border-radius: 20px
+
+.WeAre
+    color: white
+    font-size: 35px
+    font-family: SourceSansPro
+    text-align: center
+
+
+    
+.prev-text
+    color: white
+    text-align: center
+    margin-top: 20px
+    overflow: hidden
+    height: 100px
+    
+
+.center-text
+    position: absolute
+    top: 50%
+    margin-top: -100px
+    left: 50%
+    margin-left: -300px
+    width: 600px
+
+.down-button
+    position: absolute
+    width: 35px
+    height: 35px
+    background-color: #19bd9a
+    border-radius: 50%
+    bottom: 15%
+    margin-bottom: 25px
+    left: 50%
+    margin-left: -17px
+    color: white
+    font-size: 20px
+    cursor: pointer
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    i
+        padding-left: 11px
+        padding-top: 8px
+
+
+.toggle-mnu 
+  display: block
+  width: 28px
+  height: 28px
+  float: right
+  margin-right: 15px
+  margin-top: 55px
+
+  span:after, span:before 
+    content: ""
+    position: absolute
+    left: 0
+    top: 9px
+
+  span:after
+    top: 18px
+
+  span 
+    position: relative
+    display: block
+
+  span, span:after, span:before
+    width: 100%
+    height: 2px
+    background-color: #fff
+    transition: all 0.3s
+    backface-visibility: hidden
+    border-radius: 2px
+
+
+  &.on span 
+    background-color: transparent
+
+  &.on span:before 
+    transform: rotate(45deg) translate(-1px, 0px)
+
+  &.on span:after 
+    transform: rotate(-45deg) translate(6px, -7px)
+
+.mob-menu
+    background-color: rgba(#333,.9)
+    color: #d9d9d9
+    position: absolute
+    width: 500px
+    top: 130px
+    left: 50%
+    margin-left: -250px
+    text-align: center
+    z-index: 1
+    border-radius: 5px
+    display: none
+    ul
+        padding: 0px
+        li
+            list-style: none
+            display: block
+            padding: 20px
+            cursor: pointer
+            transition: all .3s ease
+            &:hover
+                text-shadow: 0px 0px 30px #19bd9a
+            &.active
+                color: white
+                text-decoration: underline
+
+.clear
+    position: relative
+    display: block
+    height: 100vh
+
